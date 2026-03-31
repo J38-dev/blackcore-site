@@ -371,3 +371,105 @@ body {
   opacity:0.7;
   font-size:14px;
 }
+
+/* =====================
+   PRICING SECTION
+===================== */
+
+.pricing-section{
+  padding:100px 0;
+  text-align:center;
+}
+
+.pricing-section h2{
+  font-size:2.2rem;
+  margin-bottom:10px;
+}
+
+.pricing-sub{
+  opacity:0.7;
+  margin-bottom:50px;
+}
+
+/* GRID */
+.pricing-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(280px,1fr));
+  gap:30px;
+}
+
+/* CARD */
+.pricing-card{
+  background: rgba(255,255,255,0.03);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:14px;
+  padding:40px 25px;
+  transition:.3s ease;
+}
+
+.pricing-card:hover{
+  transform:translateY(-8px);
+}
+
+/* FEATURED CARD */
+.pricing-card.featured{
+  border:1px solid var(--accent);
+  transform:scale(1.05);
+}
+
+/* TEXT */
+.pricing-card h3{
+  margin-bottom:10px;
+}
+
+.pricing-card h1{
+  font-size:1.8rem;
+  margin-bottom:10px;
+  color:var(--accent);
+}
+
+.pricing-desc{
+  font-size:14px;
+  opacity:0.7;
+  margin-bottom:20px;
+}
+
+/* LIST */
+.pricing-card ul{
+  list-style:none;
+  padding:0;
+  margin-bottom:25px;
+}
+
+.pricing-card ul li{
+  margin:10px 0;
+  opacity:0.85;
+}
+
+/* MAINTENANCE */
+.maintenance{
+  margin-top:80px;
+}
+
+.maintenance h3{
+  margin-bottom:10px;
+}
+
+.maintenance p{
+  opacity:0.7;
+  margin-bottom:10px;
+}
+
+.maintenance h2{
+  color:var(--accent);
+}
+
+/* TERMS */
+.pricing-terms{
+  margin-top:40px;
+  opacity:0.8;
+}
+
+.pricing-terms p{
+  margin:8px 0;
+}
