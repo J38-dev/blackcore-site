@@ -473,3 +473,111 @@ body {
 .pricing-terms p{
   margin:8px 0;
 }
+
+/* =====================
+   PRICING RESPONSIVE FIXES
+===================== */
+
+/* Tablets */
+@media (max-width: 1024px){
+
+  .pricing-section{
+    padding:80px 0;
+  }
+
+  .pricing-card{
+    padding:30px 20px;
+  }
+
+  .pricing-card h1{
+    font-size:1.6rem;
+  }
+
+  /* Remove zoom effect so it doesn’t break layout */
+  .pricing-card.featured{
+    transform:scale(1);
+  }
+}
+
+
+/* Phones */
+@media (max-width: 768px){
+
+  .pricing-section{
+    padding:70px 0;
+  }
+
+  .pricing-section h2{
+    font-size:1.8rem;
+  }
+
+  .pricing-sub{
+    font-size:14px;
+    padding:0 10px;
+  }
+
+  .pricing-grid{
+    grid-template-columns:1fr;
+    gap:25px;
+  }
+
+  .pricing-card{
+    padding:25px 20px;
+  }
+
+  .pricing-card h1{
+    font-size:1.5rem;
+  }
+
+  .pricing-card ul li{
+    font-size:14px;
+  }
+
+  .btn-primary{
+    width:100%;
+    text-align:center;
+  }
+
+  .maintenance{
+    margin-top:60px;
+    padding:0 10px;
+  }
+
+  .maintenance h2{
+    font-size:1.6rem;
+  }
+
+  .pricing-terms{
+    padding:0 10px;
+    font-size:14px;
+  }
+}
+
+
+/* Small phones (extra tight screens) */
+@media (max-width: 480px){
+
+  .pricing-section h2{
+    font-size:1.6rem;
+  }
+
+  .pricing-card{
+    padding:20px 15px;
+  }
+
+  .pricing-card h3{
+    font-size:1.1rem;
+  }
+
+  .pricing-card h1{
+    font-size:1.4rem;
+  }
+
+  .pricing-desc{
+    font-size:13px;
+  }
+
+  .pricing-card ul li{
+    font-size:13px;
+  }
+}
